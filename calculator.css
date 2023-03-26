@@ -1,0 +1,57 @@
+body{
+    font-family: monospace;
+    background: rgb(247, 206, 42);
+}
+table{
+    box-shadow: 0px 4px 8px 0px  black;
+    padding: 4.5px;
+    background: rgb(177, 142, 99);
+    border: solid 3px black;
+    border-radius: 5px;
+    height: 320px;
+    width: 310px;
+}
+button{
+    border-left:black 2px solid;
+    border-top:black 2px solid ;
+    border-right:darkgrey 2px solid ;
+    border-bottom:darkgrey 2px solid ;
+    font-size: 15px;
+    font-family: monospace;
+    height: 45px;
+    width: 70px;
+    background:#404040;
+    color: white;
+    border-radius: 2px;
+    transition: background 0.05s;
+}
+table td{
+    padding: 1px;
+    text-align: center;
+}
+table #scrn{
+    background: ghostwhite; 
+    height: 55px;
+    border-radius: 3px; 
+    border: 3px grey solid;
+    text-align: right;
+}
+
+
+
+
+
+
+table button:active{
+    color: black;
+    background:whitesmoke;
+}
+
+#eq button:active{
+    color: white;
+    background: green;
+}
+table  #cl button:active{
+    color: white;
+    background: red;
+}

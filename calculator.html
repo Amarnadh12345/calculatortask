@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <body>
+        <center>
+            
+            <table>
+                <tr>
+                    <td id="scrn" colspan="4">
+                        <span id="span_id" style="color: black; text-align: right;"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td onclick="cal('cl')" id="cl"><button>Clear</button></td>
+                    <td onclick="cal('%')"><button>%</button></td>
+                    <td onclick="back()"><button><i class="fa fa-fast-backward" aria-hidden="true"></i></button></td>
+                    <td onclick="cal('/')"><button>/</button></td>
+                </tr>
+                <tr>
+                    <td onclick="cal(7)"><button>7</button></td>
+                    <td onclick="cal(8)"><button>8</button></td>
+                    <td onclick="cal(9)"><button>9</button></td>
+                    <td onclick="cal('x')"><button>x</button></td>
+                </tr>
+                <tr>
+                    <td onclick="cal(4)"><button>4</button></td>
+                    <td onclick="cal(5)"><button>5</button></td>
+                    <td onclick="cal(6)"><button>6</button></td>
+                    <td onclick="cal('-')"><button>-</button></td>
+                </tr>
+                <tr>
+                    <td onclick="cal(3)"><button>3</button></td>
+                    <td onclick="cal(2)"><button>2</button></td>
+                    <td onclick="cal(1)"><button>1</button></td>
+                    <td onclick="cal('+')"><button>+</button></td>
+                </tr>
+                <tr>
+                    <td onclick="cal('00')"><button>00</button></td>
+                    <td onclick="cal(0)"><button>0</button></td>
+                    <td onclick="cal('.')"><button>.</button></td>
+                    <td onclick="cal('=')" id="eq"><button>=</button></td>
+                </tr>
+            </table>
+            <br>
+            
+            
+        </center>
+        <script src="calculator.js"></script>
+</body>
+</html>
